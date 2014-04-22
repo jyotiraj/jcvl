@@ -114,6 +114,9 @@
  *          onItemUnchecked: function (item) {},
  * // Since version 0.5.6
  *          checkAllChildren: false
+ * // Since version 0.5.8
+ *          selectParents: false
+ * //when true selects all the parents of the child node in the hierarchy above. False => only current node is selected
  *		});
  *
  * Author:   Alexander Khizha <khizhaster@gmail.com>
